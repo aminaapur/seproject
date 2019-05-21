@@ -1,0 +1,113 @@
+﻿
+@{
+    ViewData["Title"] = "Vijeche";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Vijeche</h2>
+
+<div class="container">
+    <form action="Hvala" method="post" id="fourma">
+        <div class="row">
+            <h3>Opchinsko Vijeche</h3>
+        </div>
+        <div class="row">
+            <div class="col-sm-4">
+                <div class="panel panel-success">
+                    <div class="panel-heading">
+                        <h3 class="panel-title"><input type="checkbox" name="stranka" value="1" id="str1" /> <label for="str1">SDA <small class="text-muted">Stranka Demokratske Akcije</small></label></h3>
+                    </div>
+                    <div class="panel-body">
+                        <ul style="list-style:none; ">
+                            <li><input type="checkbox" name="vijechnik" value="1" id="vije1" /> <label for="vije1">Suad Huskich</label> <small><a href="#" data-target="#myModal"  data-toggle="modal">bio</a></small></li>
+                            <li><input type="checkbox" name="vijechnik" value="2" id="vije2" /> <label for="vije2">Abdullah Skaka</label> <small><a href="#" data-target="#myModal"  data-toggle="modal">bio</a></small></li>
+                            <li><input type="checkbox" name="vijechnik" value="3" id="vije3" /> <label for="vije3">Semir Efendich</label> <small><a href="#" data-target="#myModal"  data-toggle="modal">bio</a></small></li>
+                            <li><input type="checkbox" name="vijechnik" value="4" id="vije4" /> <label for="vije4">Senaid Memich</label> <small><a href="#" data-target="#myModal"  data-toggle="modal">bio</a></small></li>
+                            <li><input type="checkbox" name="vijechnik" value="5" id="vije5" /> <label for="vije5">Neko iz Vogoshche</label> <small><a href="#" data-target="#myModal"  data-toggle="modal">bio</a></small></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="panel panel-danger">
+                    <div class="panel-heading">
+                        <h3 class="panel-title"><input type="checkbox" name="stranka" value="2" id="str2" /> <label for="str2">SDP <small class="text-muted">Stranka Demokratske Partije</small></label></h3>
+                    </div>
+                    <div class="panel-body">
+                        <ul style="list-style:none; ">
+                            <li><input type="checkbox" name="vijechnik" value="1" id="vije6" /> <label for="vije6">Suad Huskich</label> <small><a href="#" data-target="#myModal"  data-toggle="modal">bio</a></small></li>
+                            <li><input type="checkbox" name="vijechnik" value="2" id="vije7" /> <label for="vije7">Abdullah Skaka</label> <small><a href="#" data-target="#myModal"  data-toggle="modal">bio</a></small></li>
+                            <li><input type="checkbox" name="vijechnik" value="3" id="vije8" /> <label for="vije8">Semir Efendich</label> <small><a href="#" data-target="#myModal"  data-toggle="modal">bio</a></small></li>
+                            <li><input type="checkbox" name="vijechnik" value="4" id="vije9" /> <label for="vije9">Senaid Memich</label> <small><a href="#" data-target="#myModal"  data-toggle="modal">bio</a></small></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h3 class="panel-title"><input type="checkbox" name="stranka" value="3" id="str3" /> <label for="str3">SBB <small class="text-muted">Stranka Bolje Buduchnosti</small></label></h3>
+                    </div>
+                    <div class="panel-body">
+                        <ul style="list-style:none; ">
+                            <li><input type="checkbox" name="vijechnik" value="1" id="vije10" /> <label for="vije10">Suad Huskich</label> <small><a href="#" data-target="#myModal"  data-toggle="modal">bio</a></small></li>
+                            <li><input type="checkbox" name="vijechnik" value="2" id="vije20" /> <label for="vije20">Abdullah Skaka</label> <small><a href="#" data-target="#myModal"  data-toggle="modal">bio</a></small></li>
+                            <li><input type="checkbox" name="vijechnik" value="3" id="vije30" /> <label for="vije30">Semir Efendich</label> <small><a href="#" data-target="#myModal"  data-toggle="modal">bio</a></small></li>
+                            <li><input type="checkbox" name="vijechnik" value="4" id="vije40" /> <label for="vije40">Senaid Memich</label> <small><a href="#" data-target="#myModal"  data-toggle="modal">bio</a></small></li>
+                            <li><input type="checkbox" name="vijechnik" value="5" id="vije50" /> <label for="vije50">Neko iz Vogoshche</label> <small><a href="#" data-target="#myModal"  data-toggle="modal">bio</a></small></li>
+                            <li><input type="checkbox" name="vijechnik" value="6" id="vije60" /> <label for="vije50">Neko iz Vogoshche</label> <small><a href="#" data-target="#myModal"  data-toggle="modal">bio</a></small></li>
+                            <li><input type="checkbox" name="vijechnik" value="7" id="vije70" /> <label for="vije50">Neko iz Vogoshche</label> <small><a href="#" data-target="#myModal"  data-toggle="modal">bio</a></small></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row pull-right">
+            <button onclick="return false;" data-target="#myModa2" data-toggle="modal" class="btn btn-primary">Hajmo u Vijeche <span class="glyphicon glyphicon-chevron-right"></span></button>
+        </div>
+    </form>
+</div>
+<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                <h4 class="modal-title" id="myModalLabel">Biografia</h4>
+            </div>
+            <div class="modal-body">
+                <p>Bio je dobar chovjek. Zivio je skromno i sve je davao drzhavi.</p>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="modal fade" id="myModa2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="No"><span aria-hidden="true">&times;</span></button>
+                <h4 class="modal-title" id="myModalLabel">Confirmation</h4>
+            </div>
+            <div class="modal-body">
+                <p>Zelite li potvrditi svvoj glasove:</p>
+                <p>Opcinski nacelnik</p>
+                <ul>
+                    <li>Suad Huskic</li>
+                </ul>
+                <p>Opcinsko vijece</p>
+                <dl>
+                    <dt>SDA</dt>
+                    <dd>Suad Huskic</dd>
+                    <dd>Suad Huskic</dd>
+                    <dd>Suad Huskic</dd>
+                </dl>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">No</button>
+                <button type="button" class="btn btn-default" onclick="$('#fourma').submit();">Yes</button>
+            </div>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,27 @@
+﻿
+@{
+    ViewData["Title"] = "Glasaj";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Glasaj</h2>
+
+<div class="container">
+    <form action="Vijeche" method="post">
+        <div class="row">
+            <h3>Opchinski Nachelnik</h3>
+        </div>
+        <div class="row">
+            <ul style="list-style:none; ">
+                <li><input type="radio" name="nachelnik" value="1" id="nach1" /> <label for="nach1">Suad Huskich · SDA · <small class="text-muted">Neki text</small></label></li>
+                <li><input type="radio" name="nachelnik" value="2" id="nach2" /> <label for="nach2">Abdullah Skaka · SDB · <small class="text-muted">Jos texta</small></label></li>
+                <li><input type="radio" name="nachelnik" value="3" id="nach3" /> <label for="nach3">Semir Efendich · SDC · <small class="text-muted">Vise slova</small></label></li>
+                <li><input type="radio" name="nachelnik" value="4" id="nach4" /> <label for="nach4">Senaid Memich · SDD · <small class="text-muted">Jedna recenica</small></label></li>
+                <li><input type="radio" name="nachelnik" value="5" id="nach5" /> <label for="nach5">Neko iz Vogoshche · SDE · <small class="text-muted">I opis</small></label></li>
+            </ul>
+        </div>
+        <div class="row pull-right">
+            <button type="submit" class="btn btn-primary">Hajmo u Vijeche <span class="glyphicon glyphicon-chevron-right"></span></button>
+        </div>
+    </form>
+</div>
